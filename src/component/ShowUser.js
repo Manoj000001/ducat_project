@@ -8,10 +8,10 @@ import { Link , useNavigate} from 'react-router-dom'
         let navi=useNavigate()
         useEffect(() => {
             // let getdata = axios.get("http://localhost:3000/user")
-            let getdata = axios.get("https://manoj000001.github.io/json-spi/ducate.json/user")
+            let getdata = axios.get("https://manoj000001.github.io/json-spi/ducate.json")
             getdata.then((totalget) => {
                 // console.log(totalget.data)
-                setdata(totalget.data)
+                setdata(totalget.data.user)
             })
         })
 
@@ -20,7 +20,7 @@ import { Link , useNavigate} from 'react-router-dom'
 // axios.delete('http://localhost:3000/user/'+val).then(()=>{
 //     navi('/ShowUser')
 // })
-axios.delete('https://manoj000001.github.io/json-spi/ducate.json/user/'+val).then(()=>{
+axios.delete('https://manoj000001.github.io/json-spi/ducate.json/'+val).then(()=>{
     navi('/ShowUser')
 })
 
