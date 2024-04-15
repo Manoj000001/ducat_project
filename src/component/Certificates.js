@@ -6,7 +6,7 @@ function Certificates() {
    <>
 <div className="ccertificates">
   <div className="cform">
-<h1>Apply for Certificate here</h1>
+<h1>Apply for Certificate</h1>
 <form action="">
   Name <br />
   <input type="text" name="" id="" className='name' placeholder='Name'/>
