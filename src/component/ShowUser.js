@@ -8,7 +8,7 @@ import { Link , useNavigate} from 'react-router-dom'
         let navi=useNavigate()
         useEffect(() => {
             // let getdata = axios.get("http://localhost:3000/user")
-            let getdata = axios.get("https://github.com/Manoj000001/ducat_project/blob/main/database/ducate.json")
+            let getdata = axios.get("https://github.com/Manoj000001/ducat_project/blob/main/database/ducate.json/user")
             getdata.then((totalget) => {
                 // console.log(totalget.data)
                 setdata(totalget.data)
@@ -20,7 +20,7 @@ import { Link , useNavigate} from 'react-router-dom'
 // axios.delete('http://localhost:3000/user/'+val).then(()=>{
 //     navi('/ShowUser')
 // })
-axios.delete('https://github.com/Manoj000001/ducat_project/blob/main/database/ducate.json/'+val).then(()=>{
+axios.delete('https://github.com/Manoj000001/ducat_project/blob/main/database/ducate.json/user/'+val).then(()=>{
     navi('/ShowUser')
 })
 
