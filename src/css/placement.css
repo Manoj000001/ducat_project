@@ -1,0 +1,9 @@
+.pdata{background-color: rgb(145, 193, 210); padding: 15px; text-align: center;}
+.pdata h1{color: rgb(21, 21, 114);}
+
+.pstudents{}
+.img{width: 250px; border: 2px solid rgb(7, 7, 72); border-radius: 10px;overflow: hidden; margin: 20px;}
+
+.img div{display: flex; justify-content: center; align-items: center;}
+
+.pcontainer{display: flex;flex-wrap: wrap;max-width: 80vw; margin: auto; justify-content: space-between;}

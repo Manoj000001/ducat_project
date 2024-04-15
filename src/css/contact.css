@@ -1,0 +1,17 @@
+.ccenter{display: flex;max-width: 80vw; margin: auto;flex-wrap: wrap;}
+
+.cinfo{width: 35vw;background-color: rgb(131, 173, 189);border-radius: 10px;padding: 20px;margin: 10px;}
+.cinfo h1{color: rgb(10, 10, 89);font-weight: bold;}
+.cinfo p{font-weight: bold;}
+
+.contact h1{text-align: center;margin: 20px 0px; font-weight: bold;}
+
+@media screen and (max-width: 768px) {
+
+.cinfo{width: 100%;}
+
+}
+
+.iframe{
+    display: flex;justify-content: center;align-items: center;margin-bottom: 20px;
+}

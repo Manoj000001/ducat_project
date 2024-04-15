@@ -1,0 +1,12 @@
+
+.aimg{position: relative; }
+
+.aimg>:nth-child(2){
+    position: absolute; top: 50% ;left: 50%; font-weight: bold; font-size: 40px;color: white;
+    transform: translate(-50%, -50%);
+}
+.adata{max-width: 80vw; margin: auto; }
+.adata h1{font-weight: bold; color: rgb(18, 18, 67); }
+
+.ad{margin: 30px;}
+.ad li{margin: 20px;}

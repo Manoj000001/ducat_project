@@ -1,0 +1,36 @@
+{
+  "user": [
+    {
+      "id": "2e30",
+      "name": "manoj",
+      "age": "20",
+      "city": "aligarh",
+      "phone": "9090909090",
+      "email": "m@gmail.com"
+    },
+    {
+      "name": "shubham sharma",
+      "age": "15",
+      "city": "delhi",
+      "phone": "1910101901",
+      "email": "s@gmail.com",
+      "id": "6537"
+    },
+    {
+      "name": "shailu lodhi rajput",
+      "age": "20",
+      "city": "bhareti",
+      "phone": "9898989898",
+      "email": "s@gmail.com",
+      "id": "685f"
+    },
+    {
+      "name": "xyz jjjjjdj",
+      "age": "100",
+      "city": "noida",
+      "phone": "999",
+      "email": "m@gmail.com",
+      "id": "5528"
+    }
+  ]
+}

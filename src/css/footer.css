@@ -1,0 +1,28 @@
+.first i {color: #ffd43b; margin: 5px;}
+.footer{background-color: rgb(20, 20, 81);}
+.allfooter{background-color: rgb(20, 20, 81);padding: 50px; color: white; display: flex; width: 90vw; margin: auto;}
+.five input{width: 300px;padding: 10px; border-radius: 10px;margin: 0px 5px; border: none;outline: none;} 
+.five button{padding: 10px;width: 100px; background-color: yellow; border-radius: 10px;margin: 40px 5px;margin-left: 30px; border: none;outline: none;} 
+
+.first,.two,.three,.four,.five{margin: 20px;}
+
+@media only screen and (max-width: 768px) {
+    .allfooter {
+        flex-direction: column;
+        align-items: center;
+    }
+    .five input {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .five h3 {
+       text-align: center;
+    }
+   
+    .five button {
+        width: 100%;
+        margin: 10px 0;
+        margin-left: 0;
+    }
+}
+

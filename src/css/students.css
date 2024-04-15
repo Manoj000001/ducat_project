@@ -1,0 +1,16 @@
+
+.studentslist{width: 250px; height: auto;padding: 15px;border-radius: 10px; border: 2px solid rgb(145, 140, 140); box-shadow: 0px 0px 10px rgb(145, 138, 138);}
+
+.studentslist>:first-child{
+    display: flex;justify-content: center;
+}
+.studentslist h2{text-align: center;}
+.studentsapp>:first-child{
+    width: 300px; height: auto; display: flex;flex-direction: column; align-items: center; justify-content: center;
+}
+.studentsapp h2{color: rgb(26, 26, 91); font-weight: bold;}
+
+
+.studentsapp{display: flex;max-width:80vw ; margin: auto; flex-wrap: wrap;justify-content: space-around; row-gap: 30px;}
+
+.students{margin-bottom: 50px;}

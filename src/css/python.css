@@ -1,0 +1,37 @@
+.mid {height: 300px; width: 100%; background: rgb(218, 237, 244);}
+
+.py{float: left;margin: 50px 0px 0px 50px;  }
+.py img{height: 100px; }
+.py h3{margin: -60px 0px 0px 100px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 30px; font-weight:bold;color: rgb(84, 71, 71); }
+
+.mid2{height: auto; width: 60%; padding: 20px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px; line-height: 25px;}
+.mid2 h2{color: rgb(74, 74, 125);}
+
+.containt{ max-width: 90vw; margin: auto; }
+.containt i{color: rgb(134, 125, 125);}
+
+.containt2{max-width: 90vw; margin: auto;margin-top: 30px;}
+.flex{display: flex;flex-wrap: wrap; justify-content: space-around;}
+
+.box{border: 2px solid black; padding: 20px;border-radius: 10px; 
+width: 300px; margin: 10px; 
+}
+
+
+.containt3{display: flex; width: 100%;}
+
+.pleft{width: 55%;margin: 10px;padding: 20px;}
+.leftcontaint{border: 2px solid; border-radius: 10px ; padding: 20px;color: rgb(89, 83, 77);}
+.pright{width: 45%;margin: 10px;padding: 20px;}
+
+.rightcontaint{background-color:  rgb(189, 203, 208);padding: 20px; margin: 10px;border-radius: 10px;}
+
+
+
+@media screen and (max-width: 768px) {
+    .containt3{flex-direction: column;}
+.pleft{width: 100%;}
+.pright{width: 100%;}
+.mid2{width: 100%;}
+.python{overflow-x: hidden;}
+    }
