@@ -61,7 +61,7 @@ axios.delete('https://manoj000001.github.io/json-spi/ducate.json/'+val).then(()=
                                     )
                                 })
                             }
-                        </tbody> : <p>no data</p>
+                        </tbody> : <p>no data avilible</p>
                     }
                 </table>
                 </div>
