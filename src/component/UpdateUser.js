@@ -11,13 +11,14 @@ function UpdateUser() {
 let {uid}=useParams()
 // console.log(uid)
 useEffect(()=>{
-  axios.get("http://localhost:3000/user/" + uid ,{ name, age, city, phone, email }).then((res)=>{
+  // axios.get("http://localhost:3000/user/" + uid ,{ name, age, city, phone, email }).then((res)=>{
+  axios.get("https://manoj000001.github.io/json-spi/ducate.json/" + uid ,{ name, age, city, phone, email }).then((res)=>{
     // console.log(res.data)
-    setName(res.data.name || '')
-    setAge(res.data.age || '')
-    setCity(res.data.city || '')
-    setPhone(res.data.phone || '')
-    setEmail(res.data.email || '')
+    setName(res.data.user.name || '')
+    setAge(res.data.user.age || '')
+    setCity(res.data.user.city || '')
+    setPhone(res.data.user.phone || '')
+    setEmail(res.data.user.email || '')
     
   })
   .catch(error => {
